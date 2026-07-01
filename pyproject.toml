@@ -1,0 +1,15 @@
+[project]
+name = "ai-template"
+version = "0.1.0"
+description = "Reusable AI/Kaggle research environment"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy",
+    "pandas",
+    "polars",
+    "matplotlib",
+    "scipy",
+    "jupyterlab>=4.6.1",
+    "ipykernel>=7.3.0",
+    "scikit-learn>=1.9.0",
+]
