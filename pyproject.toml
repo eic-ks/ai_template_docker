@@ -14,5 +14,12 @@ dependencies = [
     "scikit-learn>=1.9.0",
     "lightgbm>=4.6.0",
     "xgboost>=3.3.0",
-    "kaggle>=2.2.3",
+    "kaggle==1.6.17",
+]
+
+[dependency-groups]
+dev = [
+    "black>=26.5.1",
+    "pytest>=9.1.1",
+    "ruff>=0.15.20",
 ]
