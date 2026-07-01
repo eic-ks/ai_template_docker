@@ -12,4 +12,7 @@ dependencies = [
     "jupyterlab>=4.6.1",
     "ipykernel>=7.3.0",
     "scikit-learn>=1.9.0",
+    "lightgbm>=4.6.0",
+    "xgboost>=3.3.0",
+    "kaggle>=2.2.3",
 ]
