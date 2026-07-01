@@ -1,9 +1,10 @@
-
 {
   "name": "ai-template",
   "build": {
     "dockerfile": "Dockerfile"
   },
+
+  "mounts": [],
 
   "customizations": {
     "vscode": {
@@ -15,7 +16,7 @@
     }
   },
 
-  "postCreateCommand": "python --version",
+  "postCreateCommand": "python --version && pip list",
 
   "remoteUser": "root"
 }

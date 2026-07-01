@@ -1,5 +1,5 @@
 # Python
-**pycache**/
+__pycache__/
 *.py[cod]
 
 # Virtual environments
@@ -26,8 +26,18 @@ Thumbs.db
 # Environment variables
 .env
 
-# Local outputs
+# Local outputs / cache / data
 outputs/
+cache/
+data/
 
 # Logs
-- .log
+*.log
+
+# Kaggle credentials
+.kaggle/
+kaggle.json
+
+# Data files (safety net)
+*.csv
+*.parquet
