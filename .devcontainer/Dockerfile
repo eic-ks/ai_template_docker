@@ -1,9 +1,15 @@
+
 FROM python:3.12-slim
 
-# 基本ツール（最低限の開発環境）
+# 基本ツール（AI・Kaggle開発向け）
 RUN apt-get update && apt-get install -y \
     git \
     curl \
+    wget \
+    unzip \
+    zip \
+    tree \
+    less \
     build-essential \
     && rm -rf /var/lib/apt/lists/*
 
