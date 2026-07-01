@@ -10,6 +10,9 @@ RUN apt-get update && apt-get install -y \
 # pipを最新化
 RUN pip install --upgrade pip
 
+# uv
+RUN pip install --no-cache-dir uv
+
 # 作業ディレクトリ
 WORKDIR /workspace
 
